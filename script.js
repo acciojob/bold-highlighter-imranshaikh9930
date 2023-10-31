@@ -2,9 +2,7 @@
 function highlight() {
     //Write your code here
 	
- 
-
-  for(let word of boldWords){
+	 for(let word of boldWords){
     word.style.color ='green';
   }
 
@@ -14,8 +12,8 @@ function highlight() {
 
 function return_normal() {
     //Write your code here
-for(let word of boldWords){
-    word.style.color ='black';
-  }
+		for(let word of boldWords){
+	    word.style.color ='black';
+	  }
     
 }
